@@ -52,7 +52,7 @@ We integrated with google maps and facebook.
 5. Redux-form
 
 ## Running Locally
-###Google Maps API Key: <br>
+##Google Maps API Key: <br>
 Create a new API key from the Google developer console, making sure that Maps JavaScript API has been enabled. <br> 
 Copy that key into your .env file creating an ENV var with the name REACT_APP_KEY
 
@@ -61,7 +61,7 @@ Copy that key into your .env file creating an ENV var with the name REACT_APP_KE
     2. node src\server\server.js # backend
     3. npm run dev # frontend
 
-####<b>or</b>
+###<b>or</b>
 
     click on "load" bash file.
 
