@@ -1,0 +1,70 @@
+html,
+body,
+#root {
+  font-family: Oxygen, sans-serif;
+}
+
+$blue_theme: #263279;
+
+/* The navbar container */
+  .nav {
+    display: flex;
+    position:absolute;
+    top: 0;
+    right: 0;
+    margin: 1rem;
+    background-color: #162e51;
+  }
+  
+  /* Navbar links */
+  .nav-item {
+    display:flex;
+    color: #f2f2f2;
+    text-align: center;
+    padding:8px 20px;
+    align-items: center;
+    margin: 1px;
+    font-weight: bold;
+  }
+
+  /* Links - change color on hover */
+  .nav-item:hover {
+    background-color: #12243d;
+    color: #f2f2f2;
+    cursor: pointer;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    width:100%;
+    text-align: left;
+    display: none;
+    float: none;
+    position: absolute;
+    background-color: #162e51;
+    color: #f2f2f2;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+    
+  .dropdown-content-item {
+    float: none;
+    color: #f2f2f2;
+    padding: 6px 15px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content .dropdown-content-item:hover {
+    background-color: #12243d;
+    color: #f2f2f2;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }

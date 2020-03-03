@@ -1,0 +1,122 @@
+html,
+body,
+#root {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: Oxygen, sans-serif;
+}
+
+$blue_theme: #263279;
+
+.user-info-content {
+    position: relative;
+    width: 40em;
+    height: auto;
+    box-shadow: 0px 0px 20px 0px rgba(15, 15, 15, 0.2);
+    border-radius: 6px;
+    padding: 24px;
+    margin-bottom: 30px;
+}
+
+//Header
+.user-header {
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 17px;
+    font-size: 20px;
+    border-bottom: 2px solid $blue_theme;
+}
+
+.user-info {
+    width: 100%;
+    overflow: hidden;
+    opacity:0.8;
+    border-bottom: 1px  $blue_theme;
+    margin-bottom: 10px;
+}
+
+.user-info:hover {
+    opacity:1;
+    background-color: #F2F3F5;
+}
+
+.user-info-elm {
+    float: left;
+    width: 33%;
+    font-size: 16px;
+    font-weight: 300;
+    position: relative;
+    top: 50%;
+    transform: translateY(50%);
+}
+
+.check-box {
+    float: right;
+    width: 33%;
+    text-align:center;
+}
+
+.user-avatar {
+    float: left;
+    width: 33%;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.login-input-error {
+    width: 100%;
+    height: 2em;
+    border: 2px solid #f8260f;
+    border-radius: 5px;
+    padding: 16px;
+    margin-top:5px;
+    font-size: 16px;
+}
+
+.login-input-error:hover {
+    box-shadow: 0px 0px 0px 2px #f8260f;
+   }
+
+.danger-error {
+    padding: 15px;
+    color: #f8260f;
+    font-size: 13px;
+}
+
+.upload-container {
+    cursor: pointer;
+    background-color: #efebeb;
+}
+
+.autocomplete-container {
+    max-height:8em;
+    overflow: auto;
+    // position: absolute;
+    transition: height 0.3s ease-out;
+    border-left: 1px solid efebeb;
+    border-right:1px solid efebeb;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    border-radius: 0 0 2px 2px;
+
+}
+
+.line-autocomplete-container {
+    background-color: #efebeb;
+    font-family: Oxygen, sans-serif;
+    opacity: 0.7;
+  }
+
+.line-autocomplete-container:hover {
+    cursor: pointer;
+    background-color: #efebeb;
+    opacity: 1;
+  }
+
+  .centerBtn {
+    text-align: center;
+    padding: 5px;
+    margin-top: 2em;
+    font-size: 15px;
+    border-top: 2px solid $blue_theme;
+}

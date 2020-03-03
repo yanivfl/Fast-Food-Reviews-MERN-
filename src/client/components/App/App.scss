@@ -1,0 +1,28 @@
+html,
+body,
+#root {
+  font-family: Oxygen, sans-serif;
+}
+
+.root-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo-site{
+  margin: 1rem;
+  background-image: url('https://i.imgur.com/iHpyQFS.jpg');
+  background-size: 30% 90%;
+  background-repeat: no-repeat;
+  background-position: left;
+  height:100px;
+  background-color: #162e51;
+}
+
+.loader{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
