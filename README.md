@@ -29,10 +29,10 @@ Contains the following functionality:
 1. Models - model for review, restaurant, user.
 2. Apis - get and post requests.
 3. Additional function - utils.
-4. Uses multer to store files. (pictures)
+4. Uses Multer to store files. (pictures)
 
+### <i>An Example For website Flow:</i> <br><br>
 
-## An Example For our Flow
 Register: <br>
 1. Users submits Redux-form (form has validation)
 2. Form sends an action, Saga catches the action and sends a post request to the BackEnd. the request is FormData. (might contain a file)
@@ -53,7 +53,8 @@ We integrated with google maps and facebook.
 
 ## Running Locally
 ###Google Maps API Key: <br>
-Create a new API key from the Google developer console, making sure that Maps JavaScript API has been enabled. Copy that key into your .env file creating an ENV var with the name REACT_APP_KEY
+Create a new API key from the Google developer console, making sure that Maps JavaScript API has been enabled. <br> 
+Copy that key into your .env file creating an ENV var with the name REACT_APP_KEY
 
 ### To start the server:
     1. start mongodb using mongod
